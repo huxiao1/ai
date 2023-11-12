@@ -1,4 +1,8 @@
-# ai
-exp1: Simplify the AlexNet model through the int8 quantization method to reduce the inference time on the GPU for Object Detection Task.
+# Model Compression for Efficient Object Detection
+1. Experiment 1: Quantization-Based Model Compression for Object Detection
 
-exp2: Simplify the YOLO-v3 model by pruning to reduce the inference time on the GPU for real-time Object Detection.
+We employed the int8 quantization technique to simplify an AlexNet-based model, significantly reducing inference time on the GPU for object detection tasks. This approach effectively compressed the model without compromising its accuracy.
+
+2. Experiment 2: Pruning-Based Model Compression for Real-Time Object Detection
+
+We applied pruning techniques to simplify a YOLO-v3 model, achieving a substantial reduction in inference time on the GPU for real-time object detection. This method enabled the model to operate efficiently on resource-constrained devices without sacrificing its performance.
